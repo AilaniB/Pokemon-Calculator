@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Pokemon Calculator</title>
+        <link rel = "stylesheet" href = "styles/pokemon-calculator.css">
+    </head>
+    <body>
+        <p class = "title">Pokemon Calculator</p>
+
+        <p class = "js-battle-result battleResult"></p>
+
+        <p>
+            <button onclick = "
+              pokemonBattle('water type');
+              " class = "js-pokemon-type-button pokemon-type-button">
+              <img src = "images/pokemon-images/water-icon.png" class = "type-icon" ></button>
+
+            <button onclick = "
+              pokemonBattle('fire type');
+              " class = "js-pokemon-type-button pokemon-type-button">
+              <img src = "images/pokemon-images/fire-icon.png" class = "type-icon"></button>
+
+              <button onclick = "
+              pokemonBattle('grass type');
+              " class = "js-pokemon-type-button 
+              pokemon-type-button">
+              <img src = "images/pokemon-images/grass-icon.png" class = 
+              "type-icon"></button>
+        </p>
+        <p>
+            <button onclick = "
+              pokemonBattle('electric type');
+              " class = "js-pokemon-type-button pokemon-type-button">
+              <img src = "images/pokemon-images/electric-icon.png" 
+              class = 
+              "type-icon"></button>
+
+            <button onclick = "
+              pokemonBattle('psychic type');
+              " class = "js-pokemon-type-button 
+              pokemon-type-button">
+              <img src = "images/pokemon-images/psychic-icon.png"
+              class = 
+              "type-icon"></button>
+
+              <button onclick = "
+              pokemonBattle('ground type');
+              " class = 
+              "js-pokemon-type-button 
+              pokemon-type-button">
+              <img src = "images/pokemon-images/ground-icon.png"
+              class = 
+              "type-icon"></button>
+      </p>
+
+      <p>
+              <button onclick = "
+              pokemonBattle
+              ('fighting type');" class = "
+              js-pokemon-type-button 
+              pokemon-type-button">fighting type</button>
+
+              <button onclick = "
+              pokemonBattle
+              ('rock type');" class = "
+              js-pokemon-type-button 
+              pokemon-type-button">rock type</button>
+
+              <button onclick = "
+              pokemonBattle
+              ('dark type');" class = "
+              js-pokemon-type-button 
+              pokemon-type-button">dark type</button>
+
+      </p>
+
+      <p>
+              <button onclick = "
+              pokemonBattle
+              ('stellar type');" class = "
+              js-pokemon-type-button 
+              pokemon-type-button">stellar type</button>
+
+              <button onclick = "
+              pokemonBattle
+              ('ice type');" class = "
+              js-pokemon-type-button 
+              pokemon-type-button">ice type</button>
+
+              <button onclick = "
+              pokemonBattle
+              ('poison type');" class = "
+              js-pokemon-type-button 
+              pokemon-type-button">poison type</button>
+
+      </p>
+
+      <p>
+              <button onclick = "
+              pokemonBattle
+              ('steel type');" class = "
+              js-pokemon-type-button 
+              pokemon-type-button">steel type</button>
+
+              <button onclick = "
+              pokemonBattle
+              ('fairy type');" class = "
+              js-pokemon-type-button 
+              pokemon-type-button">fairy type</button>
+
+              <button onclick = "
+              pokemonBattle
+              ('flying type');" class = "
+              js-pokemon-type-button 
+              pokemon-type-button">flying type</button>
+
+      </p>
+
+      <p>
+              <button onclick = "
+                pokemonBattle
+                (' + ');" class = "
+                js-arithmetic-button arithmetic-button">+</button>
+
+              <button onclick = "
+                battleResult = calculateWinner(battleResult);
+                pokemonBattle('');
+                localStorage.setItem('pokemonResult', battleResult);" class = "
+                js-arithmetic-button arithmetic-button">=</button>
+
+              <button onclick = "
+                battleResult = '';
+                pokemonBattle('');
+                localStorage.setItem('battleResult', battleResult);
+                " class = "js-clear-button clear-button">clear</button>
+        </p>
+
+    <script src = "scripts/pokemon-calculator.js"></script>
+</body>
+</html>
