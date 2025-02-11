@@ -4,18 +4,52 @@ body{
   font-weight: bold;
 }
 
+button{
+  border-radius: 50%;
+}
+
+.battleResult{
+  margin-left: 20px;
+  font-size: 20px;
+}
+
 .title{
+  margin-left: 12px;
   font-size: 30px;
   font-weight: bold;
   text-decoration: underline;
-  color: rgb(213, 3, 3);
+  color: rgb(211, 65, 65);
 }
 
 .type-icon{
   background-color: transparent;
-  border: none;
+  padding: 5px;
   width: 80px;
   height: 80px;
-  border-radius: 100px;
+  border-radius: 80px;
   cursor: pointer;
+}
+
+.arithmetic-button{
+  font-size: 30px;
+  color: white;
+  background-color: rgb(211, 65, 65);
+  padding: 5px;
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  cursor: pointer;
+  margin-left: 18px;
+}
+
+.clear-button{
+  font-size: 30px;
+  color: rgb(211, 65, 65);
+  background-color: white;
+  padding: 5px;
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  cursor: pointer;
+  margin-left: 18px;
 }
